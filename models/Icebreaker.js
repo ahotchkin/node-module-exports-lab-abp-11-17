@@ -8,6 +8,6 @@ class Icebreaker{
 
 module.exports = Icebreaker
 
-const icebreaker = require('./Question.js')
+const Question = require('./Question.js')
 
-icebreaker()
+
