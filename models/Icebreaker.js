@@ -1,7 +1,5 @@
 'use strict';
 
-const question = require('./Question.js')
-
 class Icebreaker{
   question(){
     Question.Find()
@@ -9,3 +7,5 @@ class Icebreaker{
 }
 
 module.exports = Icebreaker
+
+const question = require('./Question.js')
